@@ -1,0 +1,113 @@
+body {
+    font-family: Inter, sans-serif;
+    margin: 0 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 20px;
+}
+
+.container {
+    border: 2px solid lightblue;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2 {
+    position: relative;
+    left: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+}
+
+.color-container, .font-container, .style-container {
+    font-family: Inter, sans-serif;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.panel {
+    border-radius: 5px;
+    display: inline;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.yellow {
+    background-color: hsl(44, 98%, 50%);
+}
+
+.blue {
+    background-color: hsl(243, 89%, 54%);
+    color: white;
+}
+
+.teal {
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+}
+
+.spritz {
+    background-color: hsl(23, 99%, 62%);
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+  }
+
+.font-label {
+    font-size: 24px;
+    text-decoration: underline;
+  }
+
+.regular {
+    font-style: normal;
+  }
+  
+.italic {
+    font-style: italic;
+  }
+  
+.bold {
+    font-weight: 900;
+  }
+
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+  
+.gasoek-one {
+    font-family: 'Gasoek One', sans-serif;
+    letter-spacing: 1px;
+}
+  
+.diphylleia {
+    font-family: 'Diphylleia', serif;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+  
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Diphylleia', sans-serif;
+}
+  
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Diphylleia', sans-serif;
+}
